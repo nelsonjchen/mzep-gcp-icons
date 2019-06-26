@@ -1,4 +1,4 @@
-workflow "New workflow" {
+workflow "Mirroring workflow" {
   on = "schedule(*/5 * * * *)"
   resolves = ["Hello World"]
 }
